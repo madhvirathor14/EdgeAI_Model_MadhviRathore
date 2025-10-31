@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Women Safety Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Women Safety Dashboard</h1>
+
+    <div id="project-info"></div>
+
+    <div class="input-section">
+      <label>Enter Features (comma separated):</label>
+      <input type="text" id="features" placeholder="e.g. 0.1, 0.5, 0.9" />
+      <button id="run-inference">Run Inference</button>
+    </div>
+
+    <pre id="results"></pre>
+
+    <script src="edge-impulse-standalone.js"></script>
+    <script src="run-impulse.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
